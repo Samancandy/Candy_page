@@ -2,6 +2,15 @@ body{
     background: url(bg.jpg);
     background-size: cover;
     background-position: top;
+
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                        supported by Chrome and Opera */
 }
 h1{
     color: #fff;
@@ -30,6 +39,7 @@ h1{
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     border-bottom: 2px solid grey;
+
 }
 .bread_title p{
     top: 0;
@@ -39,6 +49,16 @@ h1{
     text-align: center;
     font-size: 24px;
     color: rgb(122, 115, 115);
+}
+.bread input{
+    border: none;
+    outline: none;
+    font-size: 24px;
+    color: rgb(122, 115, 115);
+}
+.bread input:hover{
+    cursor: pointer;
+    background: rgb(240, 235, 235);
 }
 .bun{
     width: 47%;
@@ -111,6 +131,66 @@ h1{
     box-sizing: border-box;
     border-radius: 8px;
     box-shadow: -5px 5px 5px rgb(61, 60, 60);
+}
+.cake_title{
+    width: 100%;
+    height: 30%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 2px solid grey;
+}
+.cake_title p{
+    top: 0;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -20%);
+    text-align: center;
+    font-size: 24px;
+    color: rgb(122, 115, 115);
+}
+.slice_cake{
+    width: 47%;
+    height: 30%;
+    top: 33%;
+    left: 2%;
+    position: absolute;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: -2px 2px 2px rgb(61, 59, 59);
+}
+.whole_cake{
+    width: 47%;
+    height: 30%;
+    top: 33%;
+    left: 51%;
+    position: absolute;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: -2px 2px 2px rgb(61, 59, 59);
+}
+.dry_cake{
+    width: 47%;
+    height: 30%;
+    top: 66%;
+    left: 2%;
+    position: absolute;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: -2px 2px 2px rgb(61, 59, 59);
+}
+.cookies{
+    width: 47%;
+    height: 30%;
+    top: 66%;
+    left: 51%;
+    position: absolute;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: -2px 2px 2px rgb(61, 59, 59);
 }
 .beverage{
     width: 22%;
@@ -185,3 +265,10 @@ h1{
     outline: none;
     font-size: 18px;
 }
+<<<<<<< HEAD
+=======
+.signout button:hover{
+    background: rgb(165, 62, 62);
+    cursor: pointer;
+}
+>>>>>>> 5a49d8bc85948d4b3746a757b4efd2ef7a46b908
