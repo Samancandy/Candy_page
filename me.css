@@ -58,7 +58,7 @@ h1{
 }
 .bread input:hover{
     cursor: pointer;
-    background: rgb(240, 235, 235);
+    background: rgb(230, 221, 221);
 }
 .bun{
     width: 47%;
